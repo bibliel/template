@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="pub-id" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="pub-id">urn:uuid:eaa95029-8eff-49c0-9682-5520863d3278</dc:identifier>
+    <dc:language>fr</dc:language>
+    <dc:title>{{book_title}}</dc:title>
+    <meta property="dcterms:modified">2011-01-01T12:00:00Z</meta>
+  </metadata>
+  <manifest>
+    <item id="nav" 
+          href="text/toc.xhtml" 
+          properties="nav"
+          media-type="application/xhtml+xml"/>
+    <item id="chapter_1_1" 
+          href="text/chapter_1_1.xhtml" 
+          media-type="application/xhtml+xml"/>
+    <item id="css" 
+          href="css/stylesheet.css" 
+          media-type="text/css"/>
+  </manifest>
+  <spine page-progression-direction="ltr">
+    <itemref idref="chapter_1_1"/>
+  </spine>
+</package>
